@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+} 
+
+body {
+    background-color: white;
+}
+
+a, li {
+    font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.logo-header img{
+    width: 175px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.nav-menu ul {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    color: black;
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover {
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}
+
+article {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../IMAGES/Parq-Fast2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(45deg, blue, orange);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+h1 {
+    color: black;
+    font-size: 125px;
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+h3 {
+    bottom: 100px;
+    width: 150px;
+    height: 25px;
+    background-color: transparent;
+    text-align: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-center a:hover {
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+}
+
+a, li {
+    font-family: 'Roboto' 'sans-serif';
+}
+
+.logo-social img{
+    width: 200px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.nav-info ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-info li {
+    margin-right: 1.5rem;
+}
+
+.nav-info a:hover {
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}

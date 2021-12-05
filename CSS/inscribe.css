@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+} 
+
+body {
+    margin: 0;
+    font-family: 'Quicksand', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+.logo-header img{
+    width: 175px;
+}
+
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.nav-menu ul {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li {
+    color: black;
+    margin-right: 1.5rem;
+}
+
+.nav-menu a:hover {
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}
+
+article {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../IMAGES/Parq-Fast2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article:before {
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    background-image: linear-gradient(45deg, blue, orange);
+    opacity: 0.5;
+    z-index: -1;
+}
+
+form {
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    padding: 20px;
+    margin: 0 auto;
+    width: 400px;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.form-log img{
+    width: 400px;
+}
+
+input, textarea {
+    outline: none;
+    width: 380px;
+}
+
+.field {
+    border: solid 1px rgb(146, 141, 141);
+    padding: 5px;
+}
+
+.field:focus {
+    border-color: cadetblue;
+}
+
+label {
+    font-size: 12px;
+}
+
+.center-content {
+    border: solid 1px white;
+    padding: 5px;
+}
+
+.link{
+    font-size: 16px;
+}
+
+.logo-social img{
+    width: 200px;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+}
+
+.nav-info ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-info li {
+    margin-right: 1.5rem;
+}
+
+.nav-info a:hover {
+    background: rgb(220, 220, 220);
+    border: 2px solid rgb(156, 156, 156);
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.2rem;
+}
